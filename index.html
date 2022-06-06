@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- A-Frame を読み込む -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />    <!-- A-Frame を読み込む -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <!-- AR.js を読み込む -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
@@ -20,7 +19,7 @@
       </a-assets>
 
       <!-- マーカーの.pattファイルを読み込む -->
-      <a-marker type="pattern" url="./assets/pattern-apple.patt" size="5000">
+      <a-marker type="pattern" url="./assets/pattern-brain.patt" size="5000">
         <!-- 3Dモデルを呼び出す -->
         <a-entity 
           position="0 0 0" rotation="-60 0 0" scale="1.10 1.10 1.10"gltf-model="#brain">
